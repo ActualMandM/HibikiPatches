@@ -12,7 +12,14 @@ BOOL WINAPI DllMain(HINSTANCE instance, DWORD reason, LPVOID reserved)
 {
 	if (reason == DLL_PROCESS_ATTACH)
 	{
-		WRITE_MEMORY((char*)sigUTOCSignature() + 1, uint8_t, 0x84);
+		if (sigValid)
+		{
+			WRITE_MEMORY((char*)sigUTOCSignature() + 1, uint8_t, 0x84);
+		}
+		else
+		{
+			MessageBox(nullptr, TEXT("Failed to initialize! Please make sure that the Hi-Fi-RUSH executable matches the MD5 hash and try again.\nMD5: 5F0E371201CB33D8813D21337526F063"), TEXT("HibikiSigPatch"), MB_ICONERROR);
+		}
 	}
 
 	return TRUE;
