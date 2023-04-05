@@ -13,3 +13,5 @@
 // Dependencies
 #include <Helpers.h>
 #include <Signature.h>
+#include <toml.hpp>
+#include "Config.h"
