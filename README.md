@@ -1,4 +1,6 @@
 # HibikiPatches
-A repository hosting ASI plugins for Hi-Fi RUSH.
+An ASI plugin for Hi-Fi RUSH that implements the following features:
+ - Narknon and Praydog's [UTOC Signature Bypass](https://www.nexusmods.com/hifirush/mods/1) exe patch
+ - Removing the letter/pillar box that can appear on non-16:9 displays
 
-All of these require [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader) renamed to `dsound.dll`.
+This requires [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader), recommended to be under `dsound.dll`.
