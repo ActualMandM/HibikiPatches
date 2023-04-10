@@ -3,7 +3,7 @@
 SIG_SCAN
 (
 	sigUTOCSignature,
-	0x1424A4C96,
+	0x1424CFAB6,
 	"\x0F\x85\x00\x00\x00\x00\x40\x80\xE6\x04",
 	"xx????xxxx"
 );
@@ -11,7 +11,7 @@ SIG_SCAN
 SIG_SCAN
 (
 	sigPillarbox,
-	0x143F283C5,
+	0x143F675D5,
 	"\xF6\x41\x30\x01\x45\x0F\x29\x43\x00",
 	"xxxxxxxx?"
 );
