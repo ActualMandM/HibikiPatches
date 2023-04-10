@@ -94,5 +94,5 @@ inline uint32_t readUnalignedU32(void* memory)
 
 inline void versionWarning(LPCTSTR modName)
 {
-	MessageBox(nullptr, TEXT("Failed to initialize! Please make sure that the Hi-Fi-RUSH executable matches the MD5 hash and try again.\nMD5: 5F0E371201CB33D8813D21337526F063"), modName, MB_ICONERROR);
+	MessageBox(nullptr, TEXT("Failed to initialize! Please make sure that Hi-Fi RUSH is on Update 3 and try again."), modName, MB_ICONERROR);
 }
