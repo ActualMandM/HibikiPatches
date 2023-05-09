@@ -3,7 +3,7 @@
 SIG_SCAN
 (
 	sigUTOCSignature,
-	0x1424CFAB6,
+	0x1424ADC66,
 	"\x0F\x85\x00\x00\x00\x00\x40\x80\xE6\x04",
 	"xx????xxxx"
 );
@@ -11,7 +11,7 @@ SIG_SCAN
 SIG_SCAN
 (
 	sigPillarbox,
-	0x143F675D5,
+	0x143F31755,
 	"\xF6\x41\x30\x01\x45\x0F\x29\x43\x00",
 	"xxxxxxxx?"
 );
@@ -29,6 +29,6 @@ void Mod::init()
 	}
 	else
 	{
-		versionWarning(TEXT("HibikiPatches"));
+		MessageBox(nullptr, TEXT("Failed to initialize! Please make sure that Hi-Fi RUSH is on Update 4 and try again."), TEXT("HibikiPatches"), MB_ICONERROR);
 	}
 }

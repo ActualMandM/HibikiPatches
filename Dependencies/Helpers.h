@@ -91,8 +91,3 @@ inline uint32_t readUnalignedU32(void* memory)
 	uint8_t* p = (uint8_t*)memory;
 	return p[0] | (p[1] << 8) | (p[2] << 16) | (p[3] << 24);
 }
-
-inline void versionWarning(LPCTSTR modName)
-{
-	MessageBox(nullptr, TEXT("Failed to initialize! Please make sure that Hi-Fi RUSH is on Update 3 and try again."), modName, MB_ICONERROR);
-}
