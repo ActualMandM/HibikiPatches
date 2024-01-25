@@ -15,7 +15,7 @@ bool Config::init()
     {
         char text[1024];
         sprintf_s(text, "Failed to parse HibikiPatches.toml:\n%s", exception.what());
-        MessageBoxA(nullptr, text, "HibikiPatches", MB_OK | MB_ICONERROR);
+        MessageBoxA(nullptr, text, MOD_NAME, MB_OK | MB_ICONERROR);
     }
 
     if (!config["enabled"].value_or(true))
