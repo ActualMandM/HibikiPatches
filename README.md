@@ -1,5 +1,5 @@
 # HibikiPatches
-**NOTICE:** The Persona modding community is working on a [Reloaded II](https://github.com/Reloaded-Project/Reloaded-II) mod named [Unreal Essentials](https://github.com/AnimatedSwine37/UnrealEssentials) which patches out the UTOC Signature for many Unreal games, including Hi-Fi RUSH. Once it releases, it'll be highly recommended to use that instead over HibikiPatches.
+**NOTICE:** The Persona modding community has created a [Reloaded II](https://github.com/Reloaded-Project/Reloaded-II) mod named [Unreal Essentials](https://github.com/AnimatedSwine37/UnrealEssentials) which patches out the UTOC Signature for many Unreal games, including Hi-Fi RUSH. Please use that instead.
 
 ---
 
